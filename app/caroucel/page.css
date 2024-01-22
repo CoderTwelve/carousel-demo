@@ -1,0 +1,27 @@
+#h1::before,
+#h2::before,
+#h3::before,
+#h4::before {
+  z-index: -1;
+  position: absolute;
+  bottom: 57px;
+  left: 1px;
+  height: 277px;
+  width: 414px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  content: "";
+}
+
+#h1::before {
+  background-image: url(../../public/caroucelImgs/h1.png);
+}
+#h2::before {
+  background-image: url(../../public/caroucelImgs/h2.png);
+}
+#h3::before {
+  background-image: url(../../public/caroucelImgs/h3.png);
+}
+#h4::before {
+  background-image: url(../../public/caroucelImgs/h4.png);
+}
